@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    background-color: rgb(255,255,255);;
+    font-size: 18px;
+    color:rgb(255,255,255);;
+    width: 100vh;
+    height: 100%;
+}
+.nav-bar {
+    background-color: rgb(255,255,255);
+    display: flex;
+    flex-flow: column wrap;
+    height: 14vh;
+    width: 100%;
+}
+.nav-bar > .First-nav {
+    background-color: rgb(0,0,0);
+    width: 100vw;
+    height: 5vh;
+}
+.nav-bar > .Second-nav {
+    background-color: rgb(255,255,255);
+    width: 100vw;
+    height: 8vh;
+}
+ul li {
+    display: inline-block;
+    margin: 6px 0 0 8px;
+}
+.left-list a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(191, 184, 182);
+    text-decoration: none;
+}
+.right-list-div {
+    float: right;
+    margin: 6px 8px 0 0;
+}
+.right-list a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(191, 184, 182);
+    text-decoration: none;
+    float: right;
+}
+.top-list a:hover {
+    color: rgb(255,255,255);
+    cursor: pointer;
+}
+.down-list li {
+    display: inline-block;
+    margin: 12px 0 0 8px;
+}
+
+.down-left-list a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(116, 113, 112);
+    text-decoration: none;
+}
+.down-list a:hover {
+    color: rgb(0,0,0);
+    cursor: pointer;
+    font-weight: 500;
+}
+.search {
+    width: 4vw;
+    height: 8vh;
+    background-color: rgb(255,255,255);
+    border-left: 1px solid rgb(199, 195, 194);
+    float: right;
+}
+.paragrah {
+    background-color: rgb(240, 247, 12);
+    width: 100vw;
+    height: 6vh;
+}
+.paragrah :first-child {
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 6vh;
+    padding-left: 25px;
+}
+.paragrah :nth-child(2) {
+    color: rgb(0,0,0);
+    padding: 10px 0 0 2px;
+}
+
+#content-sec {
+    
+
+
+@media only screen and (max-width:400px) {
+    /* For mobile phones: */
+    .nav-bar {
+      width: 100%;
+    }
+  }
