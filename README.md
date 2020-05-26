@@ -29,7 +29,7 @@ This project was on a Design-Teardown. We learnt how to use position different e
 To get a local copy up and running follow these simple example steps.
 
 
-### Download Repository (https://raw.githack.com/biodunJohnson/Building-with-Responsive-Design/restructure/index.html)
+### Download Repository (https://github.com/biodunJohnson/Building-with-Responsive-Design)
 
 
 ## Authors
