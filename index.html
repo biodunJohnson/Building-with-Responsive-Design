@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design responsive</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -12,48 +13,850 @@
 
 </head>
 <body>
-    <main>
+    <header>
         <nav class="nav-bar">
-            <div class="First-nav">
-                <ul class="top-list">
-                    <li class="left-list"><a href="#">News</a></li>
-                    <li class="left-list"><a href="#">Event</a></li>
-                    <li class="left-list"><a href="#">Business</a></li>
-                    <li class="left-list"><a href="#">AMAs</a></li>
-                    <li class="left-list"><a href="#">Spaces</a></li>
-                    <li class="left-list"><a href="#">Terms & Conditions</a></li> 
-                    <div class="right-list-div">
-                    <li class="right-list"><a href="#">About</a></li> 
-                    <li class="right-list"><a href="#">Advertise</a></li> 
-                    <li class="right-list"><a href="#">Jobs</a></li>
-                    <li class="right-list"><a href="#">Contact</a></li> 
-                </div> 
-                </ul>
+            <div class="nav-logo">
+                <img alt="logo-1023px" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
             </div>
-            <div class="Second-nav">
-                <ul class="down-list">
-                    <li class="down-left-list"><a href="#">LATEST</a></li>
-                    <li class="down-left-list"><a href="#">HARD FORK</a></li>
-                    <li class="down-left-list"><a href="#">PLUGGED</a></li>
-                    <li class="down-left-list"><a href="#">README</a></li>
-                    <li class="down-left-list"><a href="#">GROWTH QUARTERS</a></li>
-                    <li class="down-left-list"><a href="#">NEURAL</a></li> 
-                    <div class="search">
-                    </div>
-                 
-                </ul>
+            <div class="nav-bar-content">
+                <div class="topNav">
+                    <ul>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">AMAs</a></li>
+                        <li><a href="#">Spaces</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                    <ul class="nav-bar-end">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="bottomNav">
+                    <ul>
+                        <li><a href="#">LATEST</a></li>
+                        <li><a href="#">HARD FORK</a></li>
+                        <li><a href="#">PLUGGED</a></li>
+                        <li><a href="#">FUNDAMENTALS</a></li>
+                        <li><a href="#">WORK 2030</a></li>
+                    </ul>
+                    <button>
+						<i class="search-icon"></i>
+					</button>
+                </div>
             </div>
         </nav>
-        <div class="paragrah">
-                <span>We heard you like events and sweatpants so we made events you can join in your sweatpants</span>
-                <i class="fa fa-long-arrow-right"></i>   
-        </div>
-        <div id="content-sec">
-            <div class="area-one">area-1<div>
-            <div class="area-two">area2</div>
-            <div class="area-three">area3</div>
-            
+    </header>
+    <main>
+        <section class="main-view">
+        	<h1>Non Visible</h1>
+            <article class="view-item-1">
+                <a class="view-link" href="#"></a>
+                <div class="view-logo"></div>
+                <div class="view-header">
+                    <h5>PODIUM</h5>
+                    <h2><a href="#">Don’t just hire the ‘best’ people — focus on diversity</a></h2>
+                    <ul>
+                        <li class="author">by&nbsp;<a href="#">Boris Veldhuijzen van Zanten</a></li>
+                        <li>
+                            <i class="icon clock-icon"></i>
+                            <span>5 hours ago</span>
+                        </li>
+                        <li>
+                            <i class="icon share-icon"></i> &nbsp;4
+                        </li>
+                    </ul>
+                </div>
+                <div class="view-date">Friday — May 22, 2020.</div>
+            </article>
+            <div class="view-item-2">
+                <article>
+                    <a class="view-link" href="#">
+                        <div class="gradient"></div>
+                    </a>
+                    <div class="view-header">
+                        <h5>GEAR</h5>
+                        <h2><a href="#">CHEAP: A complete Canon EOS M50 travel photography kit for $599? OMG, yes</a></h2>
+                        <ul>
+                            <li class="author">by&nbsp;<a href="#">Mix</a></li>
+                            <li>
+                                <i class="icon clock-icon"></i>
+                                <span>5 hours ago</span>
+                            </li>
+                            <li>
+                                <i class="icon share-icon"></i> &nbsp;1
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <a class="view-link" href="#">
+                        <div class="gradient"></div>
+                    </a>
+                    <div class="view-header">
+                        <h5>INSIGHTS</h5>
+                        <h2><a href="#">Russian dark web market Hydra wants $146M in Bitcoin to expand globally</a></h2>
+                        <ul>
+                            <li class="author">by&nbsp;<a href="#">David Canellis</a></li>
+                            <li>
+                                <i class="icon clock-icon"></i>
+                                <span>6 hours ago</span>
+                            </li>
+                            <li>
+                                <i class="icon share-icon"></i> &nbsp;1
+                            </li>
+                        </ul>
+                    </div>
+                </article>
             </div>
+        </section>
+        <div class="other-content">
+            <section class="latest-news">
+                <h1>
+                    <a href="#">Latest news</a>
+                </h1>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img class="img-news" alt="i1" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_24045_primary_image_wide-540x270.jpg">
+                            <div class="latest-div">
+                                <h4>Train up to a new career in 2020 with this $14 coding course</h4>
+                                <p class="timer">TNW Deals - 2 hours ago</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-news" alt="i2" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/image-2-516x270.png">
+                            <div class="latest-div">
+                                <h4>How to send tabs, links, and text from Chrome to your Android device</h4>
+                                <p class="timer">Abhimanyu Ghoshal - 3 hours ago</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-news" alt="i3" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg">
+                            <div class="latest-div">
+                                <h4>Satoshi Nakaboto: ‘Bitcoin’s market cap is now on par with Costco's’</h4>
+                                <p class="timer">Satoshi Nakaboto - 4 hours ago</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-news" alt="i4" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/cryptocurrency-sim-swapper-516x270.jpg">
+                            <div class="latest-div">
+                                <h4>Alleged SIM-swapper stole crypto to buy rap music, sports cars, and bling</h4>
+                                <p class="timer">Yessi Bello Perez - 4 hours ago</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-news" alt="i5" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Twitter-compression-516x270.jpg">
+                            <div class="latest-div">
+                                <h4>Twitter will stop compressing the hell out of your photos from now on</h4>
+                                <p class="timer">Ivan Mehta - 8 hours ago</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-news" alt="i6" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Interpreter-mode-516x270.jpg">
+                            <div class="latest-div">
+                                <h4>Google Assistant's 'Interpreter mode' translates conversations in real time</h4>
+                                <p class="timer">Napier Lopez - 11 hours ago</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-news" alt="i7" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Xbox-Series-X-516x270.jpg">
+                            <div class="latest-div">
+                                <h4>Microsoft reveals the Xbox Series X, its next-gen console</h4>
+                                <p class="timer">Rachel Kaser - 12 hours ago</p>
+
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-news" alt="i8" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/Facebook-instagram-WhatsApp-515x270.jpg">
+                            <div class="latest-div">
+                                <h4>FTC might put the brakes on Facebook’s plans to merge messaging apps</h4>
+                                <p class="timer">Rachel Kaser - 16 hours ago</p>
+
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="latest-index">
+                <header>
+                    <h1><a href="#">Latest funding rounds on Index.co</a></h1>
+                    <span>
+						<a href="#">Add info</a>
+						<a href="#">Get updates by email</a>
+						<a href="#">See more</a>
+					</span>
+                </header>
+                <div class="index-container">
+                    <div>
+                        <a class="top-bar-index-item" href="#">
+                            <img alt="indexImg1" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1151020490858930176%2F-A1dqbIp.jpg&signature=94ebed517b507353f556710731542200">
+                            <h4>3X4 Genetics</h4>
+                            <div>
+                                <h4>$2.5M</h4>
+                                <p>Series A</p>
+                            </div>
+                        </a>
+                        <div class="icon-container">
+                            <a href="#">
+                                <i class="icon bookmark-icon"></i>
+                                <span>Information Technology, +3</span>
+                            </a>
+                            <a href="#">
+                                <i class="icon case-icon"></i>
+                                <span>Goldman Sachs</span>
+                            </a>
+                        </div>
+                        <div class="extra-info">
+                            <a href="#">SA’s 3X4 Genetics raises $2.5m led by Alethea Capital to expand in the US <span class="timer">on Sam Wakoba</span></a>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="top-bar-index-item" href="#">
+                            <img alt="indexImg1" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1015137313217761280%2F2OLVGQ4p.jpg&signature=b2088e0945c78271fcf222778180a7c6">
+                            <h4>Gtmhub</h4>
+                            <div>
+                                <h4>$9M</h4>
+                                <p>Series A</p>
+                            </div>
+                        </a>
+                        <div class="icon-container">
+                            <a href="#">
+                                <i class="icon bookmark-icon"></i>
+                                <span>Biotechnology</span>
+                            </a>
+                            <a href="#">
+                                <i class="icon case-icon"></i>
+                                <span>Alethea Capital Management</span>
+                            </a>
+                        </div>
+                        <div class="extra-info">
+                            <a href="#">LeanTaaS Raises $40M in Series C3 Funding <span class="timer">on FinSMEs</span></a>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="top-bar-index-item" href="#">
+                            <img alt="indexImg1" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1002663309609353216%2FhW5nCztM.jpg&signature=25c6ac2ea83d334bd5e1f9e95cf2b8f4">
+                            <h4>Popspots</h4>
+                            <div>
+                                <h4>$5M</h4>
+                                <p>Series A</p>
+                            </div>
+                        </a>
+                        <div class="icon-container">
+                            <a href="#">
+                                <i class="icon bookmark-icon"></i>
+                                <span>Enterprise Sofware, +2</span>
+                            </a>
+                            <a href="#">
+                                <i class="icon case-icon"></i>
+                                <span>CRV, +3</span>
+                            </a>
+                        </div>
+                        <div class="extra-info">
+                            <a href="#">Theatro Raises $20M in Series C Funding <span class="timer">on FinSMEs</span></a>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="top-bar-index-item" href="#">
+                            <img alt="indexImg1" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F598893361815105536%2F1z4pQsM5.jpg&signature=70881d3830102fcd2ead7eaf4e4a1b83">
+                            <h4>PrecisionHawk</h4>
+                            <div>
+                                <h4>$32M</h4>
+                                <p>Series E</p>
+                            </div>
+                        </a>
+                        <div class="icon-container">
+                            <a href="#">
+                                <i class="icon bookmark-icon"></i>
+                                <span>Advertising, +2</span>
+                            </a>
+                            <a href="#">
+                                <i class="icon case-icon"></i>
+                                <span>Capital Factory</span>
+                            </a>
+                        </div>
+                        <div class="extra-info">
+                            <a href="#">Denver-Based Business Success Platform Gtmhub Raises $9 Million <span class="timer">on Pulse 2.0</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="most-popular">
+                <section>
+                    <h1><a href="#">Apps</a></h1>
+                    <ul>
+                        <li>
+                            <article>
+                                <a class="popular-link" href="#">
+                                    <div class="gradient"></div>
+                                </a>
+                                <header class="popular-header">
+                                    <h5>MOST POPULAR</h5>
+                                    <h3><a href="#">How to send tabs, links, and text from Chrome to your Android device</a></h3>
+                                    <ul>
+                                        <li class="author"><a href="#">Abhimanyu Ghoshal</a>&nbsp;- 2 days ago</li>
+                                    </ul>
+                                </header>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="latest">
+                                <header class="latest-header">
+                                    <h5>LATEST</h5>
+                                    <h4><a href="#">Twitter will stop compressing the hell out of your photos from now on</a></h4>
+                                </header>
+                                <a href="#"></a>
+                            </article>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Google Assistant's 'Interpreter mode' translates conversations in real time</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">FTC might put the brakes on Facebook’s plans to merge messaging apps</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Google's Verified SMS feature will curb spam in Android Messages</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Microsoft redesigns over 100 icons, including the Windows logo</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Tencent-backed TikTok rival launches a children's short video app</a></h4>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h1><a href="#">Gear</a></h1>
+                    <ul>
+                        <li>
+                            <article>
+                                <a class="popular-link" href="#">
+                                    <div class="gradient"></div>
+                                </a>
+                                <header class="popular-header">
+                                    <h5>MOST POPULAR</h5>
+                                    <h3><a href="#">CHEAP: Wow, the amazing Wonderboom 2 Bluetooth speaker is only $50!!!</a></h3>
+                                    <ul>
+                                        <li class="author"><a href="#">Callum Booth</a>&nbsp;- 13 hours ago</li>
+                                    </ul>
+                                </header>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="latest">
+                                <header class="latest-header">
+                                    <h5>LATEST</h5>
+                                    <h4><a href="#">CHEAP: This wireless HP printer is only $25 — you know what to do</a></h4>
+                                </header>
+                                <a href="#"></a>
+                            </article>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">CHEAP: A complete Canon EOS M50 travel photography kit for $599? OMG, yes</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Video: What's new with the iPhone 11 Pro and the iPhone 11 Pro Max?</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">CHEAP: Go wireless for just $24.95 with JBL's T450BT headphones (58% off!!)</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Putting wheels on your new Mac Pro will cost you $400</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Huawei's P40 could pack a 120Hz screen and a massive 5,500 mAh battery</a></h4>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h1><a href="#">Tech</a></h1>
+                    <ul>
+                        <li>
+                            <article>
+                                <a class="popular-link" href="#">
+                                    <div class="gradient"></div>
+                                </a>
+                                <header class="popular-header">
+                                    <h5>MOST POPULAR</h5>
+                                    <h3><a href="#">You probably don't need a degree to be a UI/UX designer</a></h3>
+                                    <ul>
+                                        <li class="author"><a href="#">Danny Sapio</a>&nbsp;- 14 hours ago</li>
+                                    </ul>
+                                </header>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="latest">
+                                <header class="latest-header">
+                                    <h5>LATEST</h5>
+                                    <h4><a href="#">What AI analysis of placentas can teach us about childbirth and health</a></h4>
+                                </header>
+                                <a href="#"></a>
+                            </article>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Art and technology can reconstruct the faces of the dead based on remains</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Review: BenQ's HT5550 Ultra HD projector is pricy, but nearly perfect</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">AI Now 2019 report slams government use of facial recognition, biased AI</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Facebook wants to use your Oculus data for ads because of course it does</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Why designers need to look beyond 2 genders</a></h4>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h1><a href="#">Creative</a></h1>
+                    <ul>
+                        <li>
+                            <article>
+                                <a class="popular-link" href="#">
+                                    <div class="gradient"></div>
+                                </a>
+                                <header class="popular-header">
+                                    <h5>MOST POPULAR</h5>
+                                    <h3><a href="#">Giphy debuts Arcade, a platform for making and playing 'microgames'</a></h3>
+                                    <ul>
+                                        <li class="author"><a href="#">Rachel Kaser</a>&nbsp;- 8 weeks ago</li>
+                                    </ul>
+                                </header>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="latest">
+                                <header class="latest-header">
+                                    <h5>LATEST</h5>
+                                    <h4><a href="#">Microsoft's new font for devs is very aesthetically pleasing (and free)</a></h4>
+                                </header>
+                                <a href="#"></a>
+                            </article>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">How to build a production and recording studio that fits in a backpack</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Watch: Disney’s new anti-vibration tech maps CGI movements onto actual robots</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Chinese vertical dramas made for phone viewing show the future of mobile video</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Sorry, but you can’t copyright a meme</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">A peek at legendary architect John Storyk's design process</a></h4>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h1><a href="#">Podium</a></h1>
+                    <ul>
+                        <li>
+                            <article>
+                                <a class="popular-link" href="#">
+                                    <div class="gradient"></div>
+                                </a>
+                                <header class="popular-header">
+                                    <h5>MOST POPULAR</h5>
+                                    <h3><a href="#">Don’t just hire the ‘best’ people — focus on diversity</a></h3>
+                                    <ul>
+                                        <li class="author"><a href="#">Boris Veldhuijzen van Zanten</a>&nbsp;- 2 days ago</li>
+                                    </ul>
+                                </header>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="latest">
+                                <header class="latest-header">
+                                    <h5>LATEST</h5>
+                                    <h4><a href="#">Five things AI firms can learn from video games success</a></h4>
+                                </header>
+                                <a href="#"></a>
+                            </article>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">3 ways EU’s new leadership will shape global tech</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Not ready to go public? That’s the perfect time to think about going public</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">To succeed professionally, you must nurture the right skills</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Your vote is for sale and Big Tech is selling it</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">How to make your brand’s content people-centric</a></h4>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h1><a href="#">Insights</a></h1>
+                    <ul>
+                        <li>
+                            <article>
+                                <a class="popular-link" href="#">
+                                    <div class="gradient"></div>
+                                </a>
+                                <header class="popular-header">
+                                    <h5>MOST POPULAR</h5>
+                                    <h3><a href="#">Russian dark web market Hydra wants $146M in Bitcoin to expand globally</a></h3>
+                                    <ul>
+                                        <li class="author"><a href="#">David Canellis</a>&nbsp;- 2 days ago</li>
+                                    </ul>
+                                </header>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="latest">
+                                <header class="latest-header">
+                                    <h5>LATEST</h5>
+                                    <h4><a href="#">Satoshi Nakaboto: ‘Bitcoin’s market cap is now on par with Costco's’</a></h4>
+                                </header>
+                                <a href="#"></a>
+                            </article>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Alleged SIM-swapper stole crypto to buy rap music, sports cars, and bling</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">The iPhone is now the internet's preferred porn streaming device</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">ING bank wants to give clients a compliant way to store cryptocurrency, report</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">SEC: Crypto 'entrepreneur' illegally raised $42M, spent funds on dating and rent</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">NY wants to make it easier for cryptocurrency exchanges to list new tokens — but why?</a></h4>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h1><a href="#">Launch</a></h1>
+                    <ul>
+                        <li>
+                            <article>
+                                <a class="popular-link" href="#">
+                                    <div class="gradient"></div>
+                                </a>
+                                <header class="popular-header">
+                                    <h5>MOST POPULAR</h5>
+                                    <h3><a href="#">PSA: Amazon Fresh grocery deliveries are now free for US Prime members</a></h3>
+                                    <ul>
+                                        <li class="author"><a href="#">Abhimanyu Ghoshal</a>&nbsp;- 6 weeks ago</li>
+                                    </ul>
+                                </header>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="latest">
+                                <header class="latest-header">
+                                    <h5>LATEST</h5>
+                                    <h4><a href="#">Alexis Ohanian and Serj Tankian team up to help build a social network for Armenia</a></h4>
+                                </header>
+                                <a href="#"></a>
+                            </article>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Google Assistant gets its own phone number in India</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Pam and Angela from The Office are re-watching the show for their new podcast</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Bethesda wants you to test its game streaming tech with DOOM on iOS this year</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Mozilla rolls out new automated crypto-jacking filtering in Firefox</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Google announces Stadia, its cross-platform game streaming service</a></h4>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h1><a href="#">Distract</a></h1>
+                    <ul>
+                        <li>
+                            <article>
+                                <a class="popular-link" href="#">
+                                    <div class="gradient"></div>
+                                </a>
+                                <header class="popular-header">
+                                    <h5>MOST POPULAR</h5>
+                                    <h3><a href="#">Modern Warfare was doing everything right, then it pay-walled death counts</a></h3>
+                                    <ul>
+                                        <li class="author"><a href="#">Tristan Greene</a>&nbsp;- 3 days ago</li>
+                                    </ul>
+                                </header>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="latest">
+                                <header class="latest-header">
+                                    <h5>LATEST</h5>
+                                    <h4><a href="#">This gold-and-diamond-encrusted Jesus phone is the absolute most</a></h4>
+                                </header>
+                                <a href="#"></a>
+                            </article>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">YouTube now bans 'veiled threats' against content creators agian</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Here's why Indivisible is the most diverse and inclusive game of 2019</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">YouTube completely gives up trying for Rewind 2019</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Studio Ghibli scoops HBO Max by offering its films for digital purchase</a></h4>
+                        </li>
+                        <li class="headline">
+                            <h4><a href="#">Even Facebook's employees don't trust it with their financial info</a></h4>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <section class="latest-deals">
+                <header>
+                    <h1>
+                        <a href="#">Latest deals</a>
+                    </h1>
+                    <span><a href="#">See All Deals</a></span>
+                </header>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="deal-thumbnail">
+                                <img class="img-deals" alt="i9" src="https://cdnp0.stackassets.com/17171c9342ee8910c3d0a2b7d847d5147d92f4ff/store/f2f82645f4f46d4be5f09ead0b28234e9e1bbe70aa1cb7b56fb004fa9a3a/sale_7147_primary_image.jpg">
+                                <div class="deals-ribbon">
+                                    <img alt="deal-1" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg">
+                                    <p>95% off</p>
+                                </div>
+                            </div>
+                            <div class="latest-div">
+                                <h4>The 2020 Limited Edition Mac Bundle Ft. Parallels Desktop</h4>
+                                <div class="price-tag">
+                                    <p class="timer line-through">$1267.80</p>
+                                    <h6>$59.99</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="deal-thumbnail">
+                                <img class="img-deals" alt="i10" src="https://cdnp2.stackassets.com/15da7ef20e2b66400daa6500f10da15a117e28c2/store/546a0668bfc933fc3d1a4c1b068b53571dbe1982a820ff2de34eec64fe56/sale_24290_primary_image.jpg">
+                                <div class="deals-ribbon">
+                                    <img alt="deal-2" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg">
+                                    <p>84% off</p>
+                                </div>
+                            </div>
+                            <div class="latest-div">
+                                <h4>The Official PMP 6 Certification Training Course</h4>
+                                <div class="price-tag">
+                                    <p class="timer line-through">$499</p>
+                                    <h6>$79</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="deal-thumbnail">
+                                <img class="img-deals" alt="i11" src="https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg">
+                                <div class="deals-ribbon">
+                                    <img alt="deal-3" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg">
+                                    <p>92% off</p>
+                                </div>
+                            </div>
+                            <div class="latest-div">
+                                <h4>12min Micro Book Library: Lifetime Premium Subscription</h4>
+                                <div class="price-tag">
+                                    <p class="timer line-through">$346.50</p>
+                                    <h6>$29</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="deal-thumbnail">
+                                <img class="img-deals" alt="i12" src="https://cdnp0.stackassets.com/6d70d23d7f4e176c14ed33f15da993c8988dcd4b/store/63ac50970ccd31374bbc4cf9f7fbbbf9444d63c6b8bb4f4e458076224adf/sale_20151_primary_image.jpg">
+                                <div class="deals-ribbon">
+                                    <img alt="deal-4" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg">
+                                    <p>99% off</p>
+                                </div>
+                            </div>
+                            <div class="latest-div">
+                                <h4>Slideshop: Lifetime Subscription</h4>
+                                <div class="price-tag">
+                                    <p class="timer line-through">$2940</p>
+                                    <h6>$19.99</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="deal-thumbnail">
+                                <img class="img-deals" alt="i13" src="https://cdnp1.stackassets.com/a1885052002064f3903e6c4d22b09695ee1224e5/store/6ad863301975cc44ff2d8ca2233009444670eee3b2e453cc521275dd1a09/sale_24048_primary_image.jpg">
+                                <div class="deals-ribbon">
+                                    <img alt="deal-5" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg">
+                                    <p>98% off</p>
+                                </div>
+                            </div>
+                            <div class="latest-div">
+                                <h4>The Ultimate SQL Bootcamp Certification Bundle</h4>
+                                <div class="price-tag">
+                                    <p class="timer line-through">$1200</p>
+                                    <h6>$21</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="deal-thumbnail">
+                                <img class="img-deals" alt="i14" src="https://cdnp2.stackassets.com/568e03025d349d35d5dd1c5973c07964472d9936/store/021abfb1000d1f2aa1f7bb73ea83c67750c15566b177eae8d22a5d4887c3/sale_24292_primary_image.jpg">
+                                <div class="deals-ribbon">
+                                    <img alt="deal-6" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg">
+                                    <p>98% off</p>
+                                </div>
+                            </div>
+                            <div class="latest-div">
+                                <h4>The Premium 2020 Project & Quality Management Certification Bundle</h4>
+                                <div class="price-tag">
+                                    <p class="timer line-through">$2699</p>
+                                    <h6>$45.99</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="deal-thumbnail">
+                                <img class="img-deals" alt="i15" src="https://cdnp0.stackassets.com/c11e9b63abc32b2f0d57b195ebf30199249701cb/store/2dc1dd425b6bbead7647a3be7ce6068480c90a8025f80de38865cc0126e4/sale_24047_primary_image.jpg">
+                                <div class="deals-ribbon">
+                                    <img alt="deal-7" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg">
+                                    <p>98% off</p>
+                                </div>
+                            </div>
+                            <div class="latest-div">
+                                <h4>The Learn Game Design Certification Bundle</h4>
+                                <div class="price-tag">
+                                    <p class="timer line-through">$1097</p>
+                                    <h6>$18.99</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="deal-thumbnail">
+                                <img class="img-deals" alt="i16" src="https://cdnp1.stackassets.com/6c14a9f8eb97934746690af56dfa58f4fe0f4de7/store/21f45a858097668f3c5c0419808ec1f79bb6c68b09295123ebe76d0730e2/sale_24386_primary_image.jpg">
+                                <div class="deals-ribbon">
+                                    <img alt="deal-8" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg">
+                                    <p>71% off</p>
+                                </div>
+                            </div>
+                            <div class="latest-div">
+                                <h4>HUB: Hi-Fi Wireless Noise Cancelling Earbuds</h4>
+                                <div class="price-tag">
+                                    <p class="timer line-through">$250</p>
+                                    <h6>$71.99</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>
+    <footer>
+        <div class="top-footer">
+            <div>
+                <a href="#">
+                    <div class="footer-icons">
+                        <i class="icon-facebook"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="footer-icons">
+                        <i class="icon-twitter"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="footer-icons">
+                        <i class="icon-youtube"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="footer-icons">
+                        <i class="icon-instagram"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="footer-icons">
+                        <i class="icon-pinterest"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="footer-icons">
+                        <i class="icon-feed"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="footer-icons">
+                        <i class="icon-mail"></i>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">TEAM</a></li>
+                    <li><a href="#">ADVERTISE</a></li>
+                    <li><a href="#">JOBS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <span><a href="#"><img alt="footer-logo" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"></a>© 2006–2020 The James Web B.V.Made with <span class="love">♥</span> in Amsterdam. Powered By
+            <a href="#"><img alt="footer-designer" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg"></a>
+            </span>
+        </div>
+    </footer>
 </body>
 </html>
