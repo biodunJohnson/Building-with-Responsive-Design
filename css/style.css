@@ -623,12 +623,13 @@ body {
   .top-footer ul {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   
   .footer-icons {
     width: 30px;
     height: 30px;
-    background: #333;
+    background: rgb(68, 67, 67);
     padding: 5px;
     border: 2px solid #333;
     border-radius: 50%;
@@ -940,7 +941,7 @@ body {
     }
   
     .top-footer div {
-      padding-left: 10px;
+      padding-left: 9px;
     }
   
     .top-footer > div:nth-child(1) {
